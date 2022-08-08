@@ -15,7 +15,4 @@ class Student:
     @property
     def full_name(self):
         return f"{self._first_name} {self._last_name}"
-
-
-# jacob = Student("Jacob", "Conway")
-# print(jacob.full_name)
+        
